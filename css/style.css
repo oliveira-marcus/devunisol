@@ -2,14 +2,14 @@
   VARIÁVEIS E CONFIGURAÇÕES GLOBAIS
 ============================================*/
 :root {
-  --primary-color: #57a055;
+  --primary-color: #0b3f60;
   --primary-hover: #396837;
-  --text-color: #ffffffb2;
-  --background-overlay: rgba(10, 10, 10, 0.9);
+  --text-color: #000000b2;
+  /* --background-overlay: rgba(10, 10, 10, 0.9); */
   --box-background: rgba(0, 0, 0, 0.5);
   --box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   --border-radius: 8px;
-  --main-font: "Pixelify Sans", sans-serif;
+  --main-font: "Helvetica", sans-serif;
 }
 
 /*===========================================
@@ -28,7 +28,7 @@
 body {
   position: relative;
   min-height: 100vh;
-  background-image: url(../imagens/background.jpg);
+  background-color: #ecebed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -54,6 +54,7 @@ header {
   justify-content: center;
   padding: 20px 0;
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  background-color: hsl(270, 5%, 90%);
 }
 
 .logo {
@@ -110,14 +111,14 @@ header {
   CONTEÚDO PRINCIPAL
 ============================================*/
 main {
-  font-size: 32px;
+  font-size: 26px;
 }
 
 main h2 {
   text-align: center;
   margin: 20px;
-  color: white;
-  font-size: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 32px;
 }
 
 /*===========================================
@@ -126,7 +127,7 @@ main h2 {
 .box,
 .box_alt,
 .box2 {
-  background-color: var(--box-background);
+  /* background-color: var(--box-background); */
   color: var(--text-color);
   padding: 20px;
   border-radius: var(--border-radius);
@@ -156,7 +157,7 @@ form label {
   font-weight: bold;
   display: block;
   margin-top: 15px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 form input,
@@ -227,8 +228,8 @@ footer {
   text-align: center;
   margin-top: 40px;
   font-size: 0.9em;
-  color: #555;
-  background-color: black;
+  color: #ecebed;
+  background-color: rgba(11, 63, 96, 1);
   padding: 15px;
 }
 
